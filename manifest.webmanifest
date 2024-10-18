@@ -567,14 +567,6 @@
   "categories": ["technology"],
   "start_url": "/", 
   "display": "fullscreen",
-  "display_override": ["window-controls-overlay", "fullscreen"],
   "theme_color": "#f0f0f0",
-  "background_color": "#fff",
-  "protocol_handlers": [{
-    "protocol": "web+techiewizard",
-    "url": "./%s"
-  }],
-  "launch_handler": {
-    "client_mode": "focus-existing"
-  }
+  "background_color": "#fff"
 }
